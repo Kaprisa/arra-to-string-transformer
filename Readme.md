@@ -26,3 +26,9 @@ import arrayToStringTransformer from './';
     console.log(range); // 1-8
 })();
 ```
+
+Тест
+
+```bash
+npm test
+```
