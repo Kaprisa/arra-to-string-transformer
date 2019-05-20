@@ -25,7 +25,7 @@ npm i array-to-string-transformer
 ## Пример использования
 
 ```js
-import arrayToStringTransformer from './';
+import arrayToStringTransformer from 'array-to-string-transformer';
 
 (async () => {
     const range = await arrayToStringTransformer([1,2,3,4,5,6,7,8]);
