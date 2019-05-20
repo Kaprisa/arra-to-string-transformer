@@ -1,4 +1,4 @@
-const processTail = (tail, length) => length === 1 ? tail[0] : length === 2 ? tail.join(',') : `${tail[0]}-${tail[length - 1]}`;
+const processTail = (tail, length) => length <= 2 ? tail.join(',') : `${tail[0]}-${tail[length - 1]}`;
 
 export default (array) => new Promise(resolve => {
     const result= array.reduce((result, item) => {
