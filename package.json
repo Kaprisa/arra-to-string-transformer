@@ -1,0 +1,15 @@
+{
+  "name": "array-to-string-transformer",
+  "version": "0.0.1",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "mjs-mocha"
+  },
+  "keywords": [],
+  "author": "Kseniya Kuzina",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mjs-mocha": "^3.0.0"
+  }
+}
